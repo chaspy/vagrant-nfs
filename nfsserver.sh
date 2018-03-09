@@ -1,5 +1,4 @@
 #!/bin/sh
-yum update -y
 yum install -y nfs-utils
 mkdir -p /home/exports
 chown nfsnobody:nfsnobody /home/exports
